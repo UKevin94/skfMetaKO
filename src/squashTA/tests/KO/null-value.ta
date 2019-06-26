@@ -1,0 +1,17 @@
+// Cas non passant avec une clé ayant une valeur null (sur une clé devant avoir une valeur et non une clé unique, donc présence du :)
+
+METADATA :
+first_key_nothing :
+
+second_key_tab :
+
+third_key_space :
+
+multiline_key : first_key
+              : second_key
+              :
+              :
+              :
+
+TEST :
+LOAD sample-resource.txt AS resource

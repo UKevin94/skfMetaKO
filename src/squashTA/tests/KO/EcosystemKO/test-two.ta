@@ -1,0 +1,10 @@
+//Test in ecosystem, not accepted special char, add more error to the ecosystem?
+METADATA :
+
+solo_kèî
+fir$t_k€y : fir$t_v@lu€
+mµlt!l!ne : f!r$t_value
+          : s€cond_value
+TEST :
+
+#  LOAD sample-dataset.xml TO XML DATASET dataset

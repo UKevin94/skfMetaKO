@@ -1,0 +1,11 @@
+//Cas non passant bloqué par des espaces dans le cadre d'une clé multivalue
+
+METADATA :
+
+multiline_key : first_value
+              : second_value
+
+              : third_value
+
+TEST :
+LOAD sample-resource.txt AS resource

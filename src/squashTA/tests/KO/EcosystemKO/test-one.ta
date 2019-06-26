@@ -1,0 +1,14 @@
+//Test in ecosystem, space in value, add more error to the ecosystem?
+
+METADATA :
+
+first key : first value
+multiline_one : first
+
+              : second
+
+              : third
+
+TEST :
+
+#  LOAD sample-dataset.xml TO XML DATASET dataset

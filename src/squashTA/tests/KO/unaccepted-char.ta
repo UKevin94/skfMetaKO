@@ -1,0 +1,39 @@
+// Cas bloquant contenant des char spéciaux &$*!?~''{([|\@°]}=+$¤%*<>; à la fois dans la clé et dans la valeur + accents
+
+METADATA :
+// Key special char
+f!r§t_key : first_value
+$€cond_key : second_value
+(third_key) : third_value
+[fourth_key] : fourth_value
+{fifth_key} : fifth_value
+<sixth_key> : sixth_value
+sévènth~kêy& : seventh_value
+"octo?"key@; : eight
+éèàêîïë : accent_only_value
+%ùà*µkeyêûïkey : random_value
+a/// : slash_value
+a\\\ : anti-slash-value
+//Value special char
+first_key : f!r§t_value
+second_key : $€cond_value
+third_key : (third_value)
+fourth_key : [fourth_value]
+fifth_key : {fifth_value}
+sixth_key : <sixth_value>
+seventh_key : sévènth~valuê&
+eight : "octo?"key@;
+accent_only_key : éèàêîïë
+random_key : %ùà*µkeyêûï_value
+anti-slash-key : a\\\
+//Multiline key special char
+mùltilin€ : value_one
+          : value_two
+          : value_three
+//Multiline value special char
+multiline : vàluè_onê
+          : v@lüe_two;
+          : value_three2
+
+TEST :
+LOAD sample-resource.txt AS resource

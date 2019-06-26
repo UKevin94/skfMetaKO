@@ -1,0 +1,12 @@
+//Cas non passant avec des METADATA sans déclaration de phase
+
+first_key : first_value
+
+second_key
+
+multiline_key : first_value
+              : second_key
+              : third_key
+
+TEST :
+LOAD sample-resource.txt AS resource

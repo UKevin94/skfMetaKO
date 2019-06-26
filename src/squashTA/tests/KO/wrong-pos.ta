@@ -1,0 +1,11 @@
+// Cas non passant ayant une phase METADATA pas déclarée en tant que première phase du script
+
+TEST :
+#  LOAD sample-dataset.xml TO XML DATASET dataset
+
+METADATA :
+
+first-key : newValue
+key
+multi : one
+      : two
