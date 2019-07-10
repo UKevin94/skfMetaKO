@@ -7,6 +7,7 @@ second_key : second value
    third_key_space : third_value
     fourth_key_tab : fourth_value
 fifth_key : fifth   value_tab
+	test
 
 TEST :
 LOAD sample-resource.txt AS resource

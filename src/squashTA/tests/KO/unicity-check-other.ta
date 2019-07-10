@@ -1,0 +1,9 @@
+
+METADATA :
+unicity : same_value
+
+unicity_2 : same_value2
+
+TEST :
+LOAD sample-resource.txt AS resource
+          

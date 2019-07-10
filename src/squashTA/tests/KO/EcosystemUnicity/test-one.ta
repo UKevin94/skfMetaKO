@@ -1,0 +1,13 @@
+//Test in ecosystem, space in value, add more error to the ecosystem?
+
+METADATA :
+
+unicity : same_value
+
+unicity_with_multiline : not_same_value_ecosystem
+					   : same_value
+					   : not_same_value_ecosystem2
+					   
+TEST :
+
+#  LOAD sample-dataset.xml TO XML DATASET dataset

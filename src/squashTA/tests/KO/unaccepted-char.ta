@@ -34,6 +34,10 @@ mùltilin€ : value_one
 multiline : vàluè_onê
           : v@lüe_two;
           : value_three2
+&&&
+ééé
+èèè
+ôôô
 
 TEST :
 LOAD sample-resource.txt AS resource

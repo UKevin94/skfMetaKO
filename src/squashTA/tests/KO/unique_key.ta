@@ -1,0 +1,9 @@
+
+METADATA :
+unique : value1
+
+unique : value2
+
+TEST :
+LOAD sample-resource.txt AS resource
+          

@@ -1,0 +1,11 @@
+
+METADATA :
+unique_multiline : value_one
+				 : value_two
+
+
+unique_multiline : solo_value
+
+TEST :
+LOAD sample-resource.txt AS resource
+          

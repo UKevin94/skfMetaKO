@@ -5,14 +5,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>skf</groupId>
-	<artifactId>metadata</artifactId>
+	<artifactId>metadata-ko</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
 
 	<!-- Properties definition -->
 	<properties>
         <!-- Squash-TA framework version used by the project -->
-		<ta.framework.version>1.13.0.IT2</ta.framework.version>
+		<ta.framework.version>1.13.0.IT3</ta.framework.version>
 		<!--<tf.disableMetadata>true</tf.disableMetadata>-->
 	</properties>
 
