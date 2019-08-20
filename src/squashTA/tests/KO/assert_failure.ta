@@ -1,0 +1,11 @@
+
+METADATA :
+unique : value1
+
+unique : value2
+
+UnIquE : case_insensitive
+
+TEST :
+LOAD sample-resource.txt AS resource
+ASSERT resource IS contain THE $(blo)
